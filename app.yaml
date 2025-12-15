@@ -1,0 +1,5 @@
+
+service: flask-app
+runtime: python310
+entrypoint: gunicorn -b :$PORT main:app
+
